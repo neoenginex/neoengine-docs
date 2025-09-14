@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "NeoEngine Developers",
+};
 
 export default function RootLayout({
   children,
